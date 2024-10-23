@@ -1,0 +1,21 @@
+BEFORE START:
+i.  search_list.txt
+ii. M5_true_map.txt
+*Make sure to run in anaconda environment(myenv2)
+
+
+
+1. operate_m3.py (RUN SLAM)
+python operate_m3.py
+
+2. SLAM_eval.py (Check error)
+python SLAM_eval.py final_true_map.txt lab_output/slam.txt
+
+2.1 
+python TargetPoseEst.py
+
+3. SLAM_eval_m3.py (Generate Map as generated_map.txt)
+python SLAM_eval_m3.py
+
+4. M5_fruit_search.py
+python M5_fruit_search.py
